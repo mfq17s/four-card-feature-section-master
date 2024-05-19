@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+body {
+  font-family: "Poppins", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 98%);
+}
+.cards {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.stat {
+  width: 50%;
+}
+h1 {
+  font-size: 28px;
+}
+.h1 {
+  color: hsl(229, 6%, 66%);
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+p {
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 1rem;
+}
+.card {
+  padding: 20px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal rows */
+  grid-gap: 30px; /* Adjust the gap between grid items */
+}
+
+.card1 {
+  border-top: hsl(180, 62%, 55%) solid;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1 / span 2;
+  border-radius: 10px;
+  align-self: center;
+  height: 12rem;
+  width: 16rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px hsl(229, 6%, 66%);
+}
+
+.card2,
+.card3 {
+  display: flex; /* Add flexbox to the parent divs */
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+  grid-column: 2 / 3;
+  height: 12rem;
+  width: 16rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px hsl(229, 6%, 66%);
+}
+
+.card4 {
+  border-top: hsl(212, 86%, 64%) solid;
+  display: flex; /* Add flexbox to the parent divs */
+  flex-direction: column;
+  position: relative;
+  grid-column: 3 / 4;
+  grid-row: 1 / span 2;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 12rem;
+  width: 16rem;
+  box-shadow: 0 0 10px hsl(229, 6%, 66%);
+}
+
+.card2 {
+  border-top: hsl(0, 78%, 62%) solid;
+}
+
+.card3 {
+  border-top: hsl(34, 97%, 64%) solid;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; /* Position the icon absolutely */
+  bottom: 1.5rem; /* Adjust the bottom position as needed */
+  right: 1.5rem;
+  width: 2.5rem;
+}
