@@ -6,24 +6,26 @@
 }
 body {
   font-family: "Poppins", serif;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(0, 0%, 98%);
 }
 .cards {
-  font-size: 12px;
+  font-size: 10.8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin-bottom: 0;
 }
 .stat {
-  width: 50%;
+  width: 45%;
 }
 h1 {
-  font-size: 28px;
+  font-size: 25.2px;
 }
 .h1 {
   color: hsl(229, 6%, 66%);
@@ -42,11 +44,11 @@ h1 {
 p {
   color: hsl(229, 6%, 66%);
   text-align: center;
-  padding-top: 0.8rem;
-  padding-bottom: 1rem;
+  padding-top: 0.72rem;
+  padding-bottom: 0.9rem;
 }
 .card {
-  padding: 20px;
+  padding: 18px;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -65,8 +67,8 @@ p {
   grid-row: 1 / span 2;
   border-radius: 10px;
   align-self: center;
-  height: 12rem;
-  width: 16rem;
+  height: 10.8rem;
+  width: 14.4rem;
   padding: 1.5rem;
   box-shadow: 0 0 5px hsl(229, 6%, 66%);
 }
@@ -78,8 +80,8 @@ p {
   position: relative;
   padding: 1.5rem;
   grid-column: 2 / 3;
-  height: 12rem;
-  width: 16rem;
+  height: 10.8rem;
+  width: 14.4rem;
   border-radius: 10px;
   box-shadow: 0 0 10px hsl(229, 6%, 66%);
 }
@@ -93,8 +95,8 @@ p {
   grid-row: 1 / span 2;
   border-radius: 10px;
   padding: 1.5rem;
-  height: 12rem;
-  width: 16rem;
+  height: 10.8rem;
+  width: 14.4rem;
   box-shadow: 0 0 10px hsl(229, 6%, 66%);
 }
 
